@@ -1,7 +1,7 @@
 # BiciPuma-Simulation-Improvement
 Simulación usando Teoría de Colas y optimización del servicio usando SimPy para el sistema BiciPuma en la UNAM
 
-# 🚲 Simulación de Teoría de Colas: Pumabicis
+# 🚲 Simulación usando Teoría de Colas: BiciPuma
 
 Este proyecto implementa una simulación basada en eventos discretos utilizando **SimPy** en Python, con el objetivo de modelar, analizar y proponer mejoras eficientes para el sistema de préstamo de bicicletas en Ciudad Universitaria.
 
