@@ -109,7 +109,7 @@ class Metricas:
             return 0.0
         ts  = [x[0] for x in self.log_cola]
         lqs = [x[1] for x in self.log_cola]
-        return np.trapezoid(lqs, ts) / (ts[-1] - ts[0] + 1e-9)
+        return np.trapz(lqs, ts) / (ts[-1] - ts[0] + 1e-9)
     @property
     def lq_max(self):
         return max((x[1] for x in self.log_cola), default=0)
